@@ -1,0 +1,34 @@
+/* home.component.scss */
+
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  
+    .feature {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+  
+      .img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .h2 {
+        margin-top: 10px;
+      }
+  
+      .p {
+        margin-top: 10px;
+      }
+    }
+  }
+  
